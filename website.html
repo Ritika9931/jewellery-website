@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131313;
+  padding: 10px;
+}
+
+ .menu {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.menu li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+        nav a {
+            color: #444;
+            text-decoration: none;
+            padding:  10px;
+            margin: 50px;
+        }
+    
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 5px;; 
+            text-align: center;
+        }
+        .header-container {
+            text-align: center; 
+            padding: 20px; 
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .product {
+          display:flex
+          
+        
+        }
+
+
+        .container {
+             display: flex;
+             justify-content: center;
+            
+        }
+
+        .box {
+             text-align: center;
+            margin: 10px;
+            width: 100%;
+        }
+
+        .centered-button {
+            background-color: black           
+            
+        }
+        .testimonials{
+            background-color: black;
+            display:flex;
+            justify-content: center;
+          
+        }
+
+        .boxs {
+             text-align: center;
+            margin: 10px;
+             
+            background-color: rgb(238, 238, 246); 
+             color:rgb(17, 16, 16); 
+
+            padding: 20px; 
+             border: 2px solid black; 
+             
+
+            
+        }
+     
+        .image-container {
+            display: flex; 
+            justify-content: center;
+            position: relative; 
+        }
+
+        
+        .overlay-text {
+              position: absolute;
+             
+               left: 50%;
+            bottom: 10%; /* Text ko container ke bottom par position karna hai */
+            transform: translate(-50%, 50%);   
+              color: white;
+              padding: 10px;
+       }
+       .text {
+      font-size: 30px; /* Font size set karna */
+    }
+      
+        .image-container img {
+            margin: 0 10px; 
+        }
+        .full-width-img {
+            width: 100%; 
+        }
+
+
+        footer {
+    background-color: #040404;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    color: hsl(0, 27%, 98%);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: hsl(0, 27%, 98%);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section form {
+    margin-top: 10px;
+}
+
+.footer-section input[type="email"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.footer-section button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-section button:hover {
+    background-color: #555;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(0, 27%, 98%);
+    font-size: 12px;
+}
+
+      
+    
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <nav class="navbar">
+            <div>
+             <img src="j logo.png" alt="" > 
+            </div>
+            
+            <ul class="menu">
+              <li><a><i class="fas fa-home"></i> Home</a></li>
+              <li><a><i class="fas fa-th-large"></i> Collection</a></li>
+              <li><a><i class="fas fa-address-book"></i> Contact</a></li>
+              <li><input type="text" placeholder="Search"><button><i class="fas fa-search"></i></button></li>
+              <li><a ><i class="fas fa-shopping-cart"></i> Cart</a></li>
+              
+            </ul>
+          </nav> 
+         
+    </nav>
+    <header>
+        <h4>free shipping</h4>
+    </header>
+    <div class="container">
+        <img src="1X.jpg"
+        alt="Full Width Image" class="full-width-img">
+    </div>
+    <div class="header-container">
+    
+        <h2>WELCOME</h2>
+        <p style="text-align: center; font-weight:bold; ">Our jewelry is created with care and passion, but we believe that love is the
+             most important thing in the world.<br>  Sparkle up your style with a piece of jewelry from the  
+             jewelry store. <br> We purpose our jewelry collection with the simple goal of 
+             captivating you with simplicity, quality, and design.</p>
+       
+    </div>
+    <section>
+    
+    <div class="image-container">
+        <img src="img.jpg"
+        alt=" image">
+        <img src="img3.webp"
+        alt=" image" >
+        
+    </div>
+</section>
+<div class="header-container">
+   <h2>SHOP BY CATEGORY</h2> 
+</div>
+
+    <section>
+        <div class="container">
+        <div class="box"> 
+            <img src="pen (1).jpg"
+            alt=" image">
+            <h4>PENDENT</h4>    
+        </div>
+
+        <div class="box">
+            <img src="er1.jpg"
+            alt=" image">
+            <h4>EARING</h4>
+            
+        </div>
+        <div class="box">
+            <img src="ring1.jpg"
+            alt=" image">
+            <h4>RING</h4>
+               
+        </div>
+        <div class="box">
+            <img src="brace1.jpg"
+            alt=" image">
+            <h4>BRACELET</h4> 
+        </div>  
+         
+    </section>
+    
+    <section>
+        <div class=" image-container">
+           
+        <div class="box">
+            <img src="5-1.jpg"
+            alt="Full Width Image" class="full-width-img"> 
+            <div class="overlay-text">
+                <p class="text">up to<br>50% off<br> SELECT PRODUCTS</p>
+              </div>          
+        </div>
+    </div>
+         
+    </section>
+
+    <div class="header-container">
+        <h2>FEATURED COLLECTION</h2> 
+     </div>
+     
+    <section>
+        <div class="container">
+        <div class="box"> 
+            <img src="C2.jpg"
+            alt=" image">
+            <P>SQUARE SILVER-PLATED ZERCON RING</P> 
+            <P>$27.99</P>   
+        </div>
+
+        <div class="box">
+            <img src="C9.jpg"
+            alt=" image">
+            <p>SILVER-PLATED ZERCON RING</p>
+            <p>$27.00</p>
+            
+        </div>
+        <div class="box">
+            <img src="C4.jpg"
+            alt=" image">
+            <p> SILVER-PLATED ZERCON RING</p>
+            <p>$23.00</p>
+               
+        </div>
+       
+        <div class="box">
+            <img src="C5.jpg"
+            alt=" image">
+            <p>SILVER PLATED GEMSTONE RING</p>
+            <p>$49.99</p>
+        </div> 
+        </div>
+        <div class="container">
+
+        <div class="box"> 
+            <img src="C6.jpg"
+            alt=" image">
+            <p>SILVER PLATED GEMSTONE RING</p>
+            <p>$39.00</p>   
+        </div>
+
+        <div class="box">
+            <img src="N1.jpg"
+            alt=" image">
+            <p>925 SILVER GEOMATRIC SHAPE ZERCON RING</p>
+            <p>$45.99</p>
+            
+        </div>
+        <div class="box">
+            <img src="N2.jpg"
+            alt=" image">
+            <p>925 SILVER INLAID ZERCON RING</p>
+            <p>$50.00</p>
+               
+        </div>
+        <div class="box">
+            <img src="N3.jpg"
+            alt=" image">
+            <p> SILVER INLAID ZERCON OPEN RING</p>
+            <p>$39.99</p>
+        </div> 
+    
+    </div> 
+    <div class="container" >
+        <button type="button" class="centerd-button">View All</button>
+    </div>            
+    </section>
+
+    <section>
+        <section class="testimonials">
+            <div class="header-container">
+                <h1 style="color:#f4f4f4">TESTIMONIALS</h1>
+        <div class="testimonials">
+           
+        <div class="boxs"> 
+            <p class="color:#f4f4f4"> &#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p> 
+            <P style="color:#0d0d0d">One of the thing i love about jewelry store work is the simplicity of designe.<br>
+               i wear the pieces to work on the weekend and to special events.<br> they always make me feel well put togetger.
+            <br>Thanks a lot !</P> 
+            <P>Sam Joseph</P> 
+            
+        </div>
+
+        <div class="boxs">
+            <p class="color:#f4f4f4">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p> 
+            <p style="color:#0d0d0d">I recently gifted a beautiful and delicate pendent to a very dear person in my life...<br>
+             The smile on her face said it all.... it was the perfect choice...<br>Thank uhh so much for your beautiful and original piece..</p>
+            <p>Rahul Dongri</p>
+            
+        </div>
+        <div class="boxs">
+            <p class="color:#f4f4f4"> &#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>
+            <p style="color:#0d0d0d"> The stor is wonderful as they have very nice and unique designe.<br>
+              we would definitely recommend store.<br> Will visit again soon for sure!</p>
+            <p>Salmaa Praween</p>
+               
+        </div>
+    </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+    <div class="box"> 
+        <img src="download (3).jpg"
+        alt=" image">
+        <h4>RING</h4>
+        <p>We believe that the jewelry you wear should be both beautiful and meaningful.This ring is made of love, memories, 
+            and smiles.</p> 
+            <button class="shop-now">Shop Now</button>  
+    </div>
+
+    <div class="box">
+        <img src="C7.jpg"
+        alt=" image">
+        <h4>NECKLACE</h4>
+        <p>Shimmering, sparkly and irresistible. We’ve got the perfect accessory to match your look today!
+             Dedication and creativity are what we aim for.</p>
+             <button class="shop-now">Shop Now</button>
+        
+    </div>
+    <div class="box">
+        <img src="images (3).jpg"
+        alt=" image">
+        <h4>EARING</h4>
+        <p>Our jewelry is a celebration of your style. Whatever your look,
+             you’ll find something to match.Designs according to your requirements at affordable prices</p>
+             <button class="shop-now">Shop Now</button>
+           
+    </div>
+    
+     
+</section>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Welcome to Jewelry Store, where elegance meets craftsmanship. 
+                At Jewelry Store, we are passionate about creating timeless pieces that celebrate life's most precious moments.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@jewelrystore.com</p>
+            <p>Phone: 1-800-123-4567</p>
+            <p>Address: 123 Main road, Patna, India</p>
+        </div>
+        <div class="footer-section">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 Jewelry Store. All rights reserved.</p>
+    </div>
+</footer>   
+</body>
+</html>
